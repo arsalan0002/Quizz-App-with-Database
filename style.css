@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #70d6ff;
+}
+
+.main-containaer{
+    font-size: 20px;
+}
+
+#hea{
+    color:#03045e!important;
+    font-size: 4em; 
+    text-shadow: 0px 11px 10px rgba(54, 16, 221, 0.8);
+}
+.container{
+    border:0;
+    background-color: aliceblue !important;
+    width: 950px;
+    height: 380px;
+    border-radius: 20px;
+    /* margin-right: 0px; */
+    box-shadow: 0px 1px 6px rgba(143, 151, 153, 0.8);
+
+
+}
+
+#questionNum{
+    background-color: #f5f3f4 !important;
+    /* color:#023e8a!important; */
+    color: #cfc547 !important ;
+    text-shadow: -1px 1px 0 #41ba45,
+    1px 1px 0 #c63d2b,
+	1px -1px 0 #42afac,
+	-1px -1px 0 #c6c23f;
+    border-radius: 15px;
+    margin-top: 13px;
+    font-weight:bold;
+    box-shadow: 0px 3px 12px rgb(136, 131, 131) !important;
+
+}
+
+.dis-bar{
+    background-color: azure;
+    border-radius: 30px !important;
+    box-shadow: 5px 3px 17px gainsboro !important;
+}
+
+.btn{
+    margin-left: 100px !important;
+    width: 280px !important;
+    padding: 20px;
+
+}
+
+h2{
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 70;
+}
+
+#btn{
+    position: absolute;
+    /* top: 80%;  */
+    right: 22%;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    width: 100px !important;;
+    transform: translateY(50%);
+    text-shadow: 0px 11px 10px rgba(172, 151, 84, 0.8);  
+    font-weight: bolder;  
+
+}
+
+#btn:hover{
+    background-color: rgb(185, 216, 10) !important;
+}  
+
+#loading{
+    display:none;
+}
+
+@media screen and (max-width: 770px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+.container {
+    width: 800px !important;
+  }
+
+
+  #btn{
+      position: relative;
+      transform: translateY(60px);
+      left: 70% !important;
+  
+  }
+  
+  body h1{
+      font-size: 5em;
+  }
+  .btn{
+      height: 50px;
+  }
+  
+
+  .op-btn{
+    position: relative;
+    right: 10% !important;
+    width: 700px;
+    height: 100px !important;
+  }
+
+}
+
